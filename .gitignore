@@ -1,4 +1,4 @@
-/node_modules/
+*node_modules
 ./index.html
 ./index.js
 ssl.cert.pem

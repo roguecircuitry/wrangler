@@ -104,7 +104,7 @@ async function main() {
       serveHandler(req, res, {
         directoryListing: false,
         rewrites: [
-          { "source": "", "destination": "/test.txt" }
+          { "source": "", "destination": "/index.html" }
         ],
         public: NodeGlobals.clientDir
       });

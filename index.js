@@ -98,7 +98,7 @@ async function main() {
         directoryListing: false,
         rewrites: [{
           "source": "",
-          "destination": "/test.txt"
+          "destination": "/index.html"
         }],
         public: NodeGlobals.clientDir
       });
