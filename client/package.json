@@ -16,6 +16,6 @@
     "publish": "npm publish --access public"
   },
   "dependencies": {
-    "@roguecircuitry/htmless": "file:../../../htmless/"
+    "@roguecircuitry/htmless": "git+https://github.com/roguecircuitry/htmless.git"
   }
 }
